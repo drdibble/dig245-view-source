@@ -6,9 +6,31 @@
   <title>DIG 245 View Source</title>
 
   <style>
+    * {
+      color: navy
+    }
+
     h1 {
+      color: black;
       text-align: center;
-  
+    }
+
+    a {
+      color: red;
+    }
+
+    li, p {
+      font-size: 18px;
+    }
+
+    h3 {
+
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
   </style>
@@ -19,6 +41,7 @@
 <!-- visible content goes here -->
 <h1>DIG 245 View Source</h1>
 
+<h3>Viewing the Source Code</h3>
 <ol>
   <li>Open Google Chrome</li>
   <li>Use the search bar to navigate to google.com</li>
@@ -26,19 +49,24 @@
   <li>Select 'View Page Source'</li>
 
 </ol>
+<h3>My Favorite Animal</h3>
+<img src="./assets/img/dog.jpg" alt="A picture of a dog." height="200" width ="auto" class="center">
 
-<img src="./assets/img/dog.jpg" alt="A picture of a dog." height="200" width ="auto">
-
+<h3>Three possibilites with Dev Tools</h3>
 <ul>
-  <li>First thing</li>
-  <li>Second thing</li>
-  <li>Third thing</li>
+  <li>Inspect the styles attached to an element and edit them within the browser</li>
+  <li>Edit code in the filesystem (Sources -> Filesystem) to edit and <em>save</em> new code within your browser</li>
+  <li>Click the arrow in the top left to enable a feature that allows you to hover over an element and see its corresponding code </li>
 </ul>
 
-<p>New metaphor: Putting code under the microscope.</p>
-<p>Visit this <a href="https://www.npr.org/" target="_blank">site</a> to see for yourself. </p>
+<p>New metaphor: pulling out the microscope. You put the code under the microscope to see what creates the HTML output you are viewing.</p>
 
-<img src="./assets/img/npr.png" alt="NPR posting a link to their tech jobs in the console">
+<h3>Interesting Console Content</h3>
+<p>NPR posts a link to their tech jobs in their console. Visit this <a href="https://www.npr.org/" target="_blank">site</a> to see for yourself. </p>
+
+<img src="./assets/img/npr.png" alt="NPR posting a link to their tech jobs in the console" class="center">
+
+
 
 <script>
   console.log('Congrats! You found the hidden treasure: 💰💍👑');
